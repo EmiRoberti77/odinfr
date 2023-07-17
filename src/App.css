@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+
+.App {
+  display: flex;
+  text-align: center;
+  background: #e4e4e4;
+  height: 100vh;
+}
+
+.sidebar-maincss {
+  display: flex;
+  flex: 0;
+  min-width: 15% !important;
+  /* Set the desired width of the sidebar */
+  position: fixed;
+  top: 0;
+}
+
+
+.MainRoutes-maincss {
+  flex: 1;
+  position: absolute;
+  margin-left: 15%;
+  width: 85%;
+}

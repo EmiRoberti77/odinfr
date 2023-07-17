@@ -1,0 +1,36 @@
+body {
+    background-color: #dfdfdf;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.charts-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    margin-left: 10px;
+}
+
+
+.DailyFlow,
+.WeeklyFlow,
+.MaxOcc,
+.TotalChart {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 40%;
+
+
+
+}
